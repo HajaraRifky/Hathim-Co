@@ -12,19 +12,20 @@
   }
 @font-face {
     font-family: oxy ;
-    src: url(/fonts/Oxanium-Light.ttf);
+    src: url(../fonts/Oxanium-Light.ttf); 
+   
 }
 @font-face {
     font-family: LibreBaskerville;
-    src: url(/fonts/LibreBaskerville-Bold.ttf);
+    src: url(../fonts/LibreBaskerville-Bold.ttf);
 }
 @font-face {
     font-family:licorice;
-    src: url(/fonts/Licorice-Regular.ttf);
+    src: url(../fonts/Licorice-Regular.ttf);
 }
 @font-face {
     font-family: lora;
-    src: url(/fonts/Lora-Regular.ttf);
+    src: url(../fonts/Lora-Regular.ttf);
 }
 
 .Navbar{
@@ -80,10 +81,10 @@ color: #ecf0f1 ;
 }
 
 .footer{
-    padding-top: 4%;
-    height:fit-content;
+    padding-top: 1%;
+  
     background-color:#34495ec9;
-margin-bottom: 1%;
+
 }
 .fa-facebook {
     padding: 20px;
@@ -166,7 +167,8 @@ margin-right: 2px;
   
   }
   .index{
-    margin-top: 65%;
+    margin-top: 90%;
+    margin-bottom: -1%;
   }
 /*  
 @media only screen and (min-width: 390px) 
