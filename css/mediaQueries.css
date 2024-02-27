@@ -1,4 +1,12 @@
 @media only screen and (max-width: 430px) and (min-width:320px) {
+    .maincard{
+        height: fit-content;
+        margin:-2%;
+        padding:0;
+        padding-top: 1%;
+       
+      background-color:#34495e;
+      }
     h1 {
         margin-top: 3%;
         text-align: center;
@@ -125,17 +133,20 @@
     }
 
   .productimage{
-    height:1.2in;
-    width:1.2in;
+    height:1in;
+    width:1in;
     float: inline-start;
- margin-left: 2%;
+ margin-left: 5%;
     padding: 1%;
-    margin-top: 2%;
+    margin-top: 5%;
     border-radius: 10%;
   
   }
   .index{
-    margin-top: 169%;
+    margin-top: 120%;
+    margin-left: -1%;
+    margin-right: -1%;
+    
   }
 
     a#insta.fa-instagram {
