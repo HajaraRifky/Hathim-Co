@@ -1,0 +1,405 @@
+.maincard{
+    height: fit-content;
+    margin:-1%;
+    padding:0;
+    padding-top: 1%;
+    /* background-color: #F6F5F5; */
+    /* background-color: #7574745d; */
+  background-color:#34495e;
+  }
+  body{
+    background-color:#34495e35;
+  }
+@font-face {
+    font-family: oxy ;
+    src: url(/fonts/Oxanium-Light.ttf);
+}
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(/fonts/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+    font-family:licorice;
+    src: url(/fonts/Licorice-Regular.ttf);
+}
+@font-face {
+    font-family: lora;
+    src: url(/fonts/Lora-Regular.ttf);
+}
+
+.Navbar{
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+.navitems{
+    padding: 7%;
+    padding-bottom: 0%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    font-family: lora;
+  color: #ecf0f1 ; 
+ 
+  text-align: center;
+  text-decoration: none;
+ 
+}
+h1{
+    margin-top: 3%;
+    font-family: LibreBaskerville ;
+    color: #ecf0f1 ;
+    font-size: 2.5rem;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+h2{
+font-family: licorice;
+margin-left: 28%;
+margin-top: 0%;
+letter-spacing: 10px;
+color: #ecf0f1 ;
+}
+.aboutusbanner{
+    width:70%;
+    height: 50%;
+    padding-left: 15%;
+    padding-right: 2%;
+    padding-top: 10%;
+}
+.aboutheading{
+    font-family: oxy;
+    padding-left: 25%;
+    margin-bottom: 2%;
+    letter-spacing: 1ch;
+    font-size: 0.6in;
+    color: #34495e;
+}
+.textsectionaboutus{
+    padding: 1% 15% 15% 15%;
+    font-family: oxy;
+    color: #34495e;
+}
+
+.footer{
+    padding-top: 4%;
+    height:fit-content;
+    background-color:#34495ec9;
+margin-bottom: 1%;
+}
+.fa-facebook {
+    padding: 20px;
+    font-size: 30px;
+    
+    text-align: center;
+    text-decoration: none;
+   margin-right: 0%;
+    margin-left: 43%;
+    color:#ecf0f1 ;
+    border-radius: 50%;
+  }
+  .fa-instagram {
+     
+  margin-left: 2%;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    color: #ecf0f1 ;
+  }
+  .fa-whatsapp{
+   
+    margin-left: 2%;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    color: #ecf0f1 ;
+  }
+  .footernav{
+
+padding-left: 2%;
+margin-right: 2px;
+    font-size: 1rem;
+    font-family: lora;
+    text-decoration: none;
+  color:#ecf0f1 ;
+  text-align: center;
+ 
+  }
+
+  #homeclass{
+    padding-left: 40%;
+  }
+  #copyright{
+    margin-top: 3%;
+    margin-left: 35%;
+    padding-bottom: 3%;
+    color: #ecf0f1 ;
+    
+  }
+  .contactcard{
+    margin: 5%;
+    margin-bottom: 2%;
+    height:20rem;
+    width: 85%;
+    background-color:#ecf0f1 ;
+    margin-top: -23%;
+    border-radius: 10% 10% 10% 10%;
+  }
+  .clickhere{
+  text-align: center;
+   font-size: 3rem;
+   width:50%;
+   padding-right: 5%;
+   padding-top: 3%;
+  
+   float: right;
+   font-family: oxy;
+ color: #000000;
+  }
+
+  .productimage{
+    height:2.8in;
+    width:2.8in;
+    float: inline-start;
+ margin-left: 1%;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 10%;
+  
+  }
+  .index{
+    margin-top: 65%;
+  }
+/*  
+@media only screen and (min-width: 390px) 
+ { 
+    
+  h1{
+    margin-top: 3%;
+   text-align: center;
+    margin-left: 5%;
+    font-size:40px;
+}
+h2{
+font-family: licorice;
+margin-left: 32%;
+margin-top: 0%;
+font-size:medium;
+letter-spacing: 5px;
+}
+.navitems{
+  padding: 5%;
+  margin-left: 13%;
+  font-size: 0.8rem;
+  font-family: lora;
+color: #000000ec;
+text-align: center;
+text-decoration: none;
+
+}
+.contactcard{
+  margin: 5%;
+  height:10rem;
+  width: 85%;
+  background-color:rgba(217, 217, 217, 0.22);
+  margin-top: 1%;
+}
+.aboutheading{
+  
+  font-size: 0.4in;
+}
+.textsectionaboutus{
+  padding: 2% 16% 16% 16%;
+
+  text-align: center;
+}
+#copyright{
+  margin-left: 25%;
+ 
+}
+.footernav{
+
+  padding-left: 1%;
+  margin-right: 1%;
+      font-size: 1rem;
+    
+   
+    }
+    .contactcard{
+      margin: 5%;
+      height:15rem;
+      width: 85%;
+     
+      margin-top: 10%;
+    }
+    .fa-facebook {
+  
+     
+      height: 50%;
+      width: 10%;
+      padding-left: 4%;
+      padding-top: -12%;
+  
+    }
+    .clickhere{
+      text-align: center;
+       font-size: 2.7rem;
+       width:50%;
+       padding-right: 5%;
+       padding-top: 3%;
+    
+      }
+      
+} */
+
+
+
+/* For Tablet View */
+/* @media screen and (min-device-width: 768px) 
+	and (max-device-width: 1024px) {
+	.gfg-div {
+		width: 400px;
+		height: 400px;
+		background-color: orange;
+		color: black;
+	}
+} */
+
+/* For Mobile Portrait View */
+/* @media screen and (max-device-width: 480px) 
+	and (orientation: portrait) {
+	.gfg-div {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		color: #fff;
+	}
+} */
+
+/* For Mobile Landscape View */
+/* @media screen and (max-device-width: 640px) 
+	and (orientation: landscape) {
+	.gfg-div {
+		width: 400px;
+		height: 200px;
+		background-color: cyan;
+		color: black;
+	}
+} */
+
+/* For Mobile Phones Portrait or Landscape View */
+/* @media screen
+	and (max-device-width: 640px) {
+	.gfg-div {
+		width: 400px;
+		height: 200px;
+		background-color: chartreuse;
+		color: black;
+	}
+} */
+
+/* For iPhone 4 Portrait or Landscape View */
+/* @media screen and (min-device-width: 320px) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+	.gfg-div {
+		width: 400px;
+		height: 400px;
+		background-color: brown;
+		color: black;
+	}
+} */
+
+/* For iPhone 5 Portrait or Landscape View */
+/* @media (device-height: 568px) 
+	and (device-width: 320px) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+	.gfg-div {
+		width: 400px;
+		height: 400px;
+		background-color: cornflowerblue;
+		color: black;
+	}
+} */
+
+/* 
+ @media (min-device-height: 667px) 
+	and (min-device-width: 375px) 
+	and (-webkit-min-device-pixel-ratio: 3) {
+	
+  
+    h1{
+      margin-top: 3%;
+     text-align: center;
+      margin-left: 1%;
+      font-size:40px;
+  }
+  h2{
+  font-family: licorice;
+  margin-left: 32%;
+  margin-top: 0%;
+  font-size:medium;
+  letter-spacing: 5px;
+  }
+  .navitems{
+    padding: 5%;
+    margin-left: 13%;
+    font-size: 0.8rem;
+    font-family: lora;
+  color: #000000ec;
+  text-align: center;
+  text-decoration: none;
+  
+  }
+  .contactcard{
+    margin: 5%;
+    height:10rem;
+    width: 85%;
+    background-color:rgba(217, 217, 217, 0.22);
+    margin-top: 1%;
+  }
+  .aboutheading{
+    
+    font-size: 0.4in;
+  }
+  .textsectionaboutus{
+    padding: 2% 16% 16% 16%;
+  
+    text-align: center;
+  }
+  #copyright{
+    margin-left: 25%;
+   
+  }
+  .footernav{
+  
+    padding-left: 1%;
+    margin-right: 1%;
+        font-size: 1rem;
+      
+     
+      }
+      .contactcard{
+        margin: 5%;
+        height:15rem;
+        width: 85%;
+       
+        margin-top: 10%;
+      }
+      .fa-facebook {
+    
+       
+        height: 50%;
+        width: 10%;
+        padding-left: 4%;
+        padding-top: -12%;
+    
+      }
+      .clickhere{
+        text-align: center;
+         font-size: 2.7rem;
+         width:50%;
+         padding-right: 5%;
+         padding-top: 3%;
+      
+        }
+ ` 
+
+ }; */
