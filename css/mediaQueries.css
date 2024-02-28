@@ -5,7 +5,7 @@
         padding:0;
         padding-top: 1%;
        
-      background-color:#34495e;
+        background-color: #F6F5F5; 
       }
     h1 {
         margin-top: 3%;
@@ -13,6 +13,13 @@
         margin-left: 5%;
         font-size: 40px;
     }
+    #gemstoneid{
+        font-family: oxy;
+        font-weight: normal;
+        margin-left: 6%;
+        margin-top: 8%;
+        font-size: 3vh;
+      }
 
     h2 {
         font-family: licorice;
@@ -27,7 +34,7 @@
         margin-left: 13%;
         font-size: 0.7rem;
         font-family: lora;
-        color: #ffffffec;
+        color: #000000ec;
         text-align: center;
         text-decoration: none;
 
@@ -63,7 +70,7 @@
     .fa-facebook {
 
         margin-left: 30%;
-        color:rgb(238, 238, 238);
+        color:rgb(0, 0, 0);
         border-radius: 50%;
     }
 
