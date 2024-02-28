@@ -3,13 +3,11 @@
     margin:-1%;
     padding:0;
     padding-top: 1%;
-    /* background-color: #F6F5F5; */
-    /* background-color: #7574745d; */
-  background-color:#34495e;
+    background-color: #F6F5F5; 
+     
+ 
   }
-  body{
-    background-color:#34495e35;
-  }
+  
 @font-face {
     font-family: oxy ;
     src: url(../fonts/Oxanium-Light.ttf); 
@@ -38,7 +36,7 @@
     margin-left: 10%;
     font-size: 1.1rem;
     font-family: lora;
-  color: #ecf0f1 ; 
+  color: #020303 ; 
  
   text-align: center;
   text-decoration: none;
@@ -47,7 +45,7 @@
 h1{
     margin-top: 3%;
     font-family: LibreBaskerville ;
-    color: #ecf0f1 ;
+    color: #000000 ;
     font-size: 2.5rem;
     margin-left: 35%;
     margin-bottom: 1%;
@@ -57,7 +55,7 @@ font-family: licorice;
 margin-left: 28%;
 margin-top: 0%;
 letter-spacing: 10px;
-color: #ecf0f1 ;
+color: #000000 ;
 }
 .aboutusbanner{
     width:70%;
@@ -72,18 +70,18 @@ color: #ecf0f1 ;
     margin-bottom: 2%;
     letter-spacing: 1ch;
     font-size: 0.6in;
-    color: #34495e;
+    color: #000000;
 }
 .textsectionaboutus{
     padding: 1% 15% 15% 15%;
     font-family: oxy;
-    color: #34495e;
+    color: #000001;
 }
 
 .footer{
     padding-top: 1%;
-  
-    background-color:#34495ec9;
+    height: fit-content;
+    background-color: #F6F5F5; 
 
 }
 .fa-facebook {
@@ -94,7 +92,7 @@ color: #ecf0f1 ;
     text-decoration: none;
    margin-right: 0%;
     margin-left: 43%;
-    color:#ecf0f1 ;
+    color:#000000 ;
     border-radius: 50%;
   }
   .fa-instagram {
@@ -103,7 +101,7 @@ color: #ecf0f1 ;
     font-size: 30px;
     width: 30px;
     text-decoration: none;
-    color: #ecf0f1 ;
+    color: #000000 ;
   }
   .fa-whatsapp{
    
@@ -111,7 +109,7 @@ color: #ecf0f1 ;
     font-size: 30px;
     width: 30px;
     text-decoration: none;
-    color: #ecf0f1 ;
+    color: #050606 ;
   }
   .footernav{
 
@@ -120,7 +118,7 @@ margin-right: 2px;
     font-size: 1rem;
     font-family: lora;
     text-decoration: none;
-  color:#ecf0f1 ;
+  color:#000000 ;
   text-align: center;
  
   }
@@ -132,7 +130,7 @@ margin-right: 2px;
     margin-top: 3%;
     margin-left: 35%;
     padding-bottom: 3%;
-    color: #ecf0f1 ;
+    color: #000000 ;
     
   }
   .contactcard{
@@ -140,7 +138,7 @@ margin-right: 2px;
     margin-bottom: 2%;
     height:20rem;
     width: 85%;
-    background-color:#ecf0f1 ;
+    background-color:#ecf0f1d9 ;
     margin-top: -23%;
     border-radius: 10% 10% 10% 10%;
   }
@@ -167,7 +165,7 @@ margin-right: 2px;
   
   }
   .index{
-    margin-top: 50%;
+    margin-top: 110%;
     margin-bottom: -1%;
   }
 /*  

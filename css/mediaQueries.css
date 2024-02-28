@@ -74,7 +74,7 @@
 
     .contactcard {
         margin: 5%;
-        height: 12rem;
+        height: 10rem;
         width: 88%;
         background-color: rgba(217, 217, 217, 0.22);
         margin-top: 10%;
@@ -95,15 +95,15 @@
     }
 
     a#facebook.fa {
-        margin-left: 8%;
-        padding-right: 10%;
+        margin-left: 15%;
+        
         margin-top: 20%;
-        font-size: 1in;
+        font-size: 0.7in;
         width: max-content;
         text-align: right;
         text-decoration: none;
         height: 70%;
-        width: 15%;
+        
         border-radius: 50%;
         float: inline-start;
 
@@ -112,11 +112,11 @@
 
     .clickhere {
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         width: 50%;
         padding-right: 5%;
         padding-top: 5%;
-
+        margin-left: 2%;
 
         color: #000000;
     }
@@ -124,11 +124,12 @@
 
     a#whatsapp.fa-whatsapp {
         background: #0b8d09;
-        font-size: 0.9in;
-        padding: 5% 19% 2% 8%;
+        font-size: 0.7in;
+        padding: 2% 12% 2% 5%;
         height: 50%;
-        margin-top: 10%;
-
+       float: inline-end;
+       margin-top: 15%;
+       margin-right: 10%;
         color: rgb(255, 255, 255);
     }
 
@@ -151,10 +152,11 @@
 
     a#insta.fa-instagram {
         background: #fd007f;
-        font-size: 1in;
+        font-size: 0.7in;
         height: 50%;
-        width: 18%;
+        width: 15%;
         margin-left: 10%;
+        margin-top: 10%;
         padding-left: 5%;
         padding-top: 2%;
         padding-bottom: 2%;
