@@ -17,61 +17,95 @@
     <div class="maincard">
         <h1>HATHIM & CO</h1>
         <h2>Shine Bright with Every Stone</h2>
-        <div class="Navbar">
-            <a class="navitems" href="index.html">HOME</a>
-            <a class="navitems" href="./components/aboutus.html">ABOUT US</a>
-            <a class="navitems" href="./components/contactus.html">CONTACT US</a>
-        </div>
+
+        <a class="navitems" href="./components/aboutus.html">ABOUT US</a>
+        <a class="navitems" href="#contactme">CONTACT US</a>
+        <a class="navitems" href="#gemstoneid">GEMSTONES</a>
+
 
     </div>
-    <h1 id="gemstoneid">GEM STONES</h1>
+    <div>
+        <img class="mainbg" src="./images/background.jpeg">
+        <h1 id="gemstoneid">GEM STONES</h1>
 
-    <div id="mainmodal" class="mainmodal">
-        <div class="videocard">
-            <h3 class="gemname">RED RUBY</h3>
-            <video class="video" width="450px" height="200" controls>
-                <source src="./video/IMG_0.MOV" type="video/mp4">
-            </video>
-            <span
-                onclick="document.getElementById('mainmodal').style.display='none';document.getElementById('productgallery').style.filter='none';document.getElementById('mybody').style.overflow='auto'"
-                class="closebutton">&times;</span>
-            <p class="gemstonedescription">Description: 
-            <ul class="gemstonedescription">
-                <li>Gemstone Type: Blue Sapphire</li>
-                <li>Color: Vivid Blue</li>
-                <li>Shape: Various (Round, Oval, Princess, etc.)</li>
-                <li>Cut: Faceted</li>
-                <li>Clarity: Eye-clean to slightly included</li>
-                <li>Carat Weight: Varies (Available in different sizes)</li>
-                <li>Hardness: 9 on the Mohs scale</li>
-                <li>Origin: Various</li>
-                
-            </ul>
-            </p>
-            <button class="quotation">GET QUOTATION</button>
+        <div id="mainmodal" class="mainmodal">
+            <div class="videocard">
+                <h3 class="gemname">RED RUBY</h3>
+                <video class="video" width="450px" height="200" controls>
+                    <source src="./video/IMG_0.MOV" type="video/mp4">
+                </video>
+                <span
+                    onclick="document.getElementById('mainmodal').style.display='none';document.getElementById('productgallery').style.filter='none';document.getElementById('mybody').style.overflow='auto'"
+                    class="closebutton">&times;</span>
+                <p class="gemstonedescription">Description:
+                <ul class="gemstonedescription">
+                    <li>Gemstone Type: Blue Sapphire</li>
+                    <li>Color: Vivid Blue</li>
+                    <li>Shape: Various (Round, Oval, Princess, etc.)</li>
+                    <li>Cut: Faceted</li>
+                    <li>Clarity: Eye-clean to slightly included</li>
+                    <li>Carat Weight: Varies (Available in different sizes)</li>
+                    <li>Hardness: 9 on the Mohs scale</li>
+                    <li>Origin: Various</li>
+
+                </ul>
+                </p>
+                <button class="quotation">GET QUOTATION</button>
+            </div>
         </div>
-    </div>
 
-    <div id="productgallery" class="clientsproducts">
+        <section id="productgallery" class="clientsproducts">
 
+
+        </section>
+        <br>
+        <img src="../Hathim-Co/images/bord.png" class="board">
+        <h1 class="birthsoneclass" id="gemstoneid" >BIRTH STONE</h1>
+        <div class="birthmonth">
+            <div id="inputdatahere"></div>
+            <form id="mystone">
+
+                <img class="centergem" 
+                    src="../Hathim-Co/images/Untitled_design-removebg-preview.png">
+                <h3 class="bithmonthtext" style="margin-top: -8%; font-size: 1.5rem;">WANT TO FIND YOUR BIRTH STONE?
+                </h3>
+                <h3 class="bithmonthtext">ENTER YOUR BIRTH MONTH</h3>
+                <select id="monthselection" class="input" style="text-align: center;">
+                    <option>SELECT</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+
+                </select>
+
+                <button class="enterbutton" type="button" onclick="findbirthstone(event)"> ENTER</button>
+            </form>
+
+        </div>
+        <br><br> <br><br>
+        <hr class="newwww">
+        <div id="contactme" class="conactme">
+            <h3 class="textconact">CLICK HERE TO CONNECT WITH US </h3>
+            <a><img class="icon" src="../Hathim-Co/images/fb.png"></a>
+            <a href="https://wa.me/message/MP37SHAXHDL4L1?src=qr"><img class="icon"
+                    src="../Hathim-Co/images/wh.png"></a>
+            <a><img class="icon" src="../Hathim-Co/images/insta.png"></a><br><br><br>
+            <p id="copyright">&copy;2024 HAJARA MOHAMED RIFKY | All Rights Reserved</p>
+
+        </div>
 
     </div>
 
 </body>
-
-
-<footer class="footer index">
-    <a href="#" class="fa fa-facebook" style="color: white;"></a>
-    <a href="#" class="fa fa-instagram" style="color: white;"></a>
-    <a href="#" class="fa fa-whatsapp" style="color: white;"></a>
-    <div>
-        <a class="footernav" href="/index.html" id="homeclass">Home</a>
-        <a class="footernav" href="./aboutus.html">About Us</a>
-        <a class="footernav" href="./contactus.html">Contact Us</a>
-
-    </div>
-    <p id="copyright">&copy;2024 HAJARA MOHAMED RIFKY | All Rights Reserved</p>
-</footer>
 
 
 </html>
