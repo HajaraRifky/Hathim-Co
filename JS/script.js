@@ -51,7 +51,7 @@ function settingstone(images, stone) {
     divv.setAttribute("class", "gemstone")
     var textt = document.createElement("p")
     textt.setAttribute("class", "textgems")
-    textt.innerHTML = '<h3>Congradulations!</h3> <p class=trial>Your birthstone is ' + stone + '</p>'
+    textt.innerHTML = '<h3 class="congradulations">Congradulations!</h3> <p class=trial>Your birthstone is ' + stone + '</p>'
     var buttonback = document.createElement("button")
     buttonback.setAttribute("class", "backbutton")
     buttonback.setAttribute("onClick", "closewindow()")
@@ -76,7 +76,7 @@ function settingmultiplestone(arraystone, stone) {
     
     var textt = document.createElement("p")
     textt.setAttribute("class", "textgems")
-    textt.innerHTML = '<h3>Congradulations!</h3> <p class=textformulti>Your birthstone is ' + stone + '</p>'
+    textt.innerHTML = '<h3 class="congradulations">Congradulations!</h3> <p class=textformulti>Your birthstone is ' + stone + '</p>'
     var buttonback = document.createElement("button")
     buttonback.setAttribute("class", "backbutton")
     buttonback.setAttribute("onClick", "closewindow()")
