@@ -74,7 +74,7 @@
     .mainbg{
       width: 103%;
       margin-left: -1%;
-   
+   margin-top: 2%;
       height: 300px;
     }
     .aboutheading {
@@ -137,32 +137,6 @@
 
     }
 
-    a#facebook.fa-facebook {
-        background: #3B5998;
-        color: rgb(238, 238, 238);
-        height: 80%;
-        width: 10%;
-        padding-left: 4%;
-        padding-top: 3%;
-
-    }
-
-    a#facebook.fa {
-        margin-left: 15%;
-        
-        margin-top: 20%;
-        font-size: 0.7in;
-        width: max-content;
-        text-align: right;
-        text-decoration: none;
-        height: 70%;
-        
-        border-radius: 50%;
-        float: inline-start;
-
-
-    }
-
     .clickhere {
         text-align: center;
         font-size: 1.4rem;
@@ -175,26 +149,15 @@
     }
 
 
-    a#whatsapp.fa-whatsapp {
-        background: #0b8d09;
-        font-size: 0.7in;
-        padding: 2% 12% 2% 5%;
-        height: 50%;
-       float: inline-end;
-       margin-top: 15%;
-       margin-right: 10%;
-        color: rgb(255, 255, 255);
-    }
-
   .productimage{
-    height:1in;
-    width:1in;
+    height:1.2in;
+    width:1.2in;
     float: inline-start;
- margin-left: 7%;
+ /* margin-left: 7%;
     padding: 1%;
     margin-right: -5%;
-    margin-top: 5%;
-    border-radius: 10%;
+    margin-top: 5%; */
+    /* border-radius: 10%; */
   
   }
   .index{
@@ -204,21 +167,7 @@
     
   }
 
-    a#insta.fa-instagram {
-        background: #fd007f;
-        font-size: 0.7in;
-        height: 50%;
-        width: 15%;
-        margin-left: 10%;
-        margin-top: 10%;
-        padding-left: 5%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-     float: inline-start;
-  
-        color: rgb(255, 255, 255);
 
-    }
     .videocard{
         background-color: #fefefe;
         margin: auto;
@@ -263,9 +212,9 @@
       height: 120px;;
       width:200px
     }
-    /* .clientsproducts{
-      filter: blur(5px);
-    } */
+    .clientsproducts{
+     margin-left: 4%;
+    }
     .gemstonedescription{
       font-family: alegry;
      margin-left: 1%;
@@ -321,4 +270,5 @@
     color: rgb(231, 197, 86);
     
   }
+ 
 }
